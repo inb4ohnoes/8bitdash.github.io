@@ -2,6 +2,8 @@
 
 8bitdash is a start page for the browser (http://www.8bitdash.com/). The site shows outstanding pixel artworks. The artists gave permission to show their artworks on the site. Feel free to contribute features via pull-request.
 
+This fork removes all visible text and controls so the webpages may be used as desktop backgrounds.
+
 ## Clock
 
 ![Screenshot](http://i.imgur.com/YQe0UeC.jpg)
