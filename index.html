@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-    <title>8bitdash</title>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1">    
-    <meta name="description" content="A startpage where you can enjoy amazing pixel art. It also features a curated bookmark list."/>
-    <meta name="keywords" content="pixel, art, pixelart, 8bit"/>
-    <style>
+  <meta http-equiv="x-ua-compatible" content="IE=edge">
+  <title>8bitdash</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">    
+  <meta name="description" content="A startpage where you can enjoy amazing pixel art. It also features a curated bookmark list."/>
+  <meta name="keywords" content="pixel, art, pixelart, 8bit"/>
+  <style>
     body { 
       background: no-repeat center center fixed; 
       -webkit-background-size: cover;
@@ -16,40 +17,40 @@
       font-family: 'minecraftfont';
       color: #fff;
     }
-    </style>
-    <link rel="stylesheet" type="text/css" href="css/8bitdash.min.css" />
-    <script src="js/8bitdash.min.js"></script>
-    </head>
+  </style>
+  <link rel="stylesheet" type="text/css" href="css/8bitdash.max.css" />
+  <script src="js/8bitdash.max.js"></script>
+</head>
 <body>
-<div id="fullpage">
-	<div class="section " id="dash">
+  <div id="fullpage">
+    <div class="section " id="dash">
       <div id="clock">  
       </div>
       <div id="greeting">
-    	Good evening
+
       </div>
       <div id="footer">
       </div>
     </div>
-	<div class="section" id="map">
+    <div class="section" id="map">
       <div class="container">
         <div class="row" id="mapheader">
           <div id="maplogo"><img src="images/map.png"/></div>
           <div id="maptitle"></div>
           <script id="topicTemplate" type="x-tmpl-mustache">
             {{#topics}}
-               <a href="#" class="topic" id="{{name}}" onClick="changeMap('{{name}}')">{{name}}</a>&nbsp;&nbsp;&nbsp;
+            <a href="#" class="topic" id="{{name}}" onClick="changeMap('{{name}}')">{{name}}</a>&nbsp;&nbsp;&nbsp;
             {{/topics}}
           </script>
         </div>
-           <script id="cell1" type="x-tmpl-mustache">
-              <h2>{{title}}</h2>
-              <ul>
-                {{#links}}
-                  <li><a target="_blank" href="{{{url}}}">{{title}}</a></li>
-                {{/links}}
-              </ul>
-            </script>
+        <script id="cell1" type="x-tmpl-mustache">
+          <h2>{{title}}</h2>
+          <ul>
+            {{#links}}
+            <li><a target="_blank" href="{{{url}}}">{{title}}</a></li>
+            {{/links}}
+          </ul>
+        </script>
         <div class="row">
           <div id="cell0target" class="one-third column">
           </div>
@@ -69,7 +70,7 @@
       </div> 
       <div id="mapfooter">suggestions to 8bitdash@<a href="http://www.madewithtea.com" target="_blank">madewithtea.com</a></div>
     </div>
-</div>
+  </div>
 <!-- Piwik
 <script type="text/javascript">
   var _paq = _paq || [];
