@@ -2,7 +2,17 @@
 
 8bitdash is a start page for the browser (http://www.8bitdash.com/). The site shows outstanding pixel artworks. The artists gave permission to show their artworks on the site. Feel free to contribute features via pull-request.
 
-This fork removes all visible text and controls so the webpages may be used as desktop backgrounds.
+This fork removes all visible text and controls so the webpages may be used as desktop backgrounds with WallpaperWebPage.
+
+## How To
+
+1. Clone this repository locally
+
+2. Install WallpaperWebPage
+
+3. Point WallpaperWebPage to the absolute directory of your cloned repository. 
+
+4. Hit "OK" and enjoy!
 
 ## Clock
 
