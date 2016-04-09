@@ -13675,7 +13675,7 @@ var links = {
                 n = "url(" + t + ") " + i;
             e.style.background = n, e.style.backgroundSize = "cover"
         }, this.changeBackground = function(t) {
-            console.log("Changing to " + t), window.u.sm("change-bg:" + t), this.changeCSS("images/" + t)
+            console.log("Changing to " + t), window.u.sm("change-bg:" + t), this.changeCSS("images/kirokaze/coffeeinrain.gif"/* + t*/)
         }, this.changeCredit = function(t) {
             console.log("Changing credit to " + t);
             var e = t;
@@ -13683,7 +13683,7 @@ var links = {
         }, this.updateBackground = function() {
             var t = p[this.curMode][this.curIndex],
                 e = this.curMode + "/";
-            this.changeBackground(e + t), this.changeCredit(t in d ? d[t] : "Mention me @madewithtea to take credit for your art.")
+            this.changeBackground(e + t), this.changeCredit(""/*t in d ? d[t] : "Mention me @madewithtea to take credit for your art."*/)
         }, this.nextBackground = function() {
             this.curIndex += 1, this.curIndex + 1 > p[this.curMode].length && (this.curIndex = 0), this.updateBackground()
         }, this.previousBackground = function() {
